@@ -1,0 +1,27 @@
+h3 {
+    font-size: 25px !important;
+
+}
+
+#pictbutton:hover {
+    background-color: yellowgreen;
+}
+
+canvas {
+    border: 1px solid black;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    from{
+        box-shadow: 2px 2px 40px red
+    }
+    to{
+        box-shadow: 2px 2px 40px orange
+    }
+    to{
+        box-shadow: 2px 2px 40px yellow
+    }
+}
